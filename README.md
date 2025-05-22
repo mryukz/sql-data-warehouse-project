@@ -77,8 +77,6 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-For more details, refer to docs/requirements.md.
-
 ----
 
 # Repository Structure
@@ -87,6 +85,12 @@ For more details, refer to docs/requirements.md.
 
 # License
 
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
+
 ----
 
 # About me
+
+Hi! I am Nakajima, Naoyuki. An aspiring Data Analyst who currently works as a CAE Engineer. Passionate on coding, designing, and storytelling using data.
+
+Feel free to connect with me on [LinkedIn](www.linkedin.com/in/nakajimanaoyuki)!
