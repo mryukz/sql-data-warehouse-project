@@ -1,3 +1,12 @@
+/*
+===========================================
+DDL SCRIPT: Create Silver Layer
+===========================================
+Script Purpose:
+  This script create table for bronze schema, it drops table if the same table already exists
+  Run this script to re-define the DDL structure of "silver" tables. 
+*/
+
 DROP TABLE IF EXISTS silver.crm_cust_info;
 CREATE TABLE silver.crm_cust_info (
 	cst_id INT,
