@@ -40,11 +40,11 @@ Project consist of:
 
 # 🛠️ Links & Tools:
 
-  * Datasets: Access to the project dataset (CSV files).
-  * PostgreSQL: Open-source database and GUI for interacting with databases.
-  * Git reposity: For collaboration and documentation of the project.
-  * Fimga: Used for designing data architecture, models, flows, and diagram for the project.
-  * Notion: For managing project phases and task.
+  * [Datasets](datasets): Access to the project dataset (CSV files).
+  * [PostgreSQL](https://www.postgresql.org/): Open-source database and GUI for interacting with databases.
+  * [Git repository](https://github.com/mryukz/sql-data-warehouse-project): For collaboration and documentation of the project.
+  * [Figma](https://www.figma.com/): Used for designing data architecture, models, flows, and diagram for the project.
+  * [Notion](https://www.notion.com/): For managing project phases and task.
 
 ----
 
@@ -112,4 +112,3 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 Hi! I am Nakajima, Naoyuki. An aspiring Data Analyst who currently works as a CAE Engineer. Passionate on coding, designing, and storytelling using data.
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/nakajimanaoyuki)!
-
