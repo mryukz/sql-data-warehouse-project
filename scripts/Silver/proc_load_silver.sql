@@ -66,7 +66,7 @@ BEGIN
 		cst_create_date
 		FROM ( SELECT *, ROW_NUMBER() OVER (PARTITION BY cst_id ORDER BY cst_create_date DESC) as flag_last
 		FROM bronze.crm_cust_info
-		WHERE cst_id IS NOT NULL);
+		WHERE cst_id IS NOT NULL) WHERE flag_last = 1;
 	end_time := CURRENT_TIMESTAMP;
 	duration := end_time - start_time;
 	RAISE NOTICE '>> Load Duration: %', duration;
