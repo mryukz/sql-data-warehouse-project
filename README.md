@@ -6,7 +6,7 @@ This is specifically designed to act as a portfolio project to highlight the ski
 
 ----
 
-# Data Architecture
+# 🏗️ Data Architecture
 
 The data architecture for this project follows medallion architecture concpet, which has layer called **Bronze**, **Silver**, and **Gold**:
 <img width="2249" alt="Data Layers (Medallion Architecture)" src="https://github.com/user-attachments/assets/6694112f-cee0-4761-9d3f-d269a4a7fb6a" />
@@ -17,7 +17,7 @@ The data architecture for this project follows medallion architecture concpet, w
 
 ----
 
-# Project Overview
+# 📖 Project Overview
 
 Project consist of:
 
@@ -26,7 +26,7 @@ Project consist of:
   3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
   4. **Analytics & Reporting**: Creating SQL-Based reports and dashboard using BI tools for actionable insight for business-use.
 
-**Highlights**:
+🎯 **Highlights**:
 
   * Data Architecture
   * Data Engineering
@@ -38,7 +38,7 @@ Project consist of:
 
 ----
 
-# Links & Tools:
+# 🛠️ Links & Tools:
 
   * Datasets: Access to the project dataset (CSV files).
   * PostgreSQL: Open-source database and GUI for interacting with databases.
@@ -48,7 +48,7 @@ Project consist of:
 
 ----
 
-# Project Requirements
+# 🚀 Project Requirements
 
 **Building the Data Warehouse (Data Engineering)**
 
@@ -65,7 +65,7 @@ Specifications
 
 ----
 
-#BI: Analytics & Reporting (Data Analysis)
+# 📊 BI: Analytics & Reporting (Data Analysis)
 
 **Objective**
 
@@ -79,18 +79,37 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ----
 
-# Repository Structure
+# 📂 Repository Structure
+data-warehouse-project/
+```
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
+```
+----
+
+# 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
 ----
 
-# License
-
-This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
-
-----
-
-# About me
+# 🙇 About me
 
 Hi! I am Nakajima, Naoyuki. An aspiring Data Analyst who currently works as a CAE Engineer. Passionate on coding, designing, and storytelling using data.
 
-Feel free to connect with me on [LinkedIn](www.linkedin.com/in/nakajimanaoyuki)!
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/nakajimanaoyuki)!
+
